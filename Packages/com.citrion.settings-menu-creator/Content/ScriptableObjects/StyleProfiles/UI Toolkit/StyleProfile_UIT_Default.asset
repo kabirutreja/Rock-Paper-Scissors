@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fee2b443c436d428b68419eee8ed65, type: 3}
+  m_Name: StyleProfile_UIT_Default
+  m_EditorClassIdentifier: 
+  identifier: Default
+  lastIdentifier: Default
+  data:
+  - key: Background Image 1
+    value:
+      rid: 1568872811870289920
+  - key: Background Image 2
+    value:
+      rid: 1568872811870289921
+  - key: Primary Image
+    value:
+      rid: 1568872811870289922
+  - key: Primary Image Border
+    value:
+      rid: 7116012210771198024
+  - key: Primary Image Inverted
+    value:
+      rid: 1568872811870289926
+  - key: Primary Image Inverted Border
+    value:
+      rid: 7116012210771198025
+  - key: Primary Text
+    value:
+      rid: 1568872811870289929
+  - key: Primary Text Inverted
+    value:
+      rid: 1568872811870289933
+  - key: Default Font
+    value:
+      rid: 7116012159902679040
+  - key: Default Font Size
+    value:
+      rid: 7116012159902679042
+  - key: Headline Font Size
+    value:
+      rid: 7116012159902679043
+  - key: Headline Font Style
+    value:
+      rid: 7116012163079864687
+  - key: Headline Align Self
+    value:
+      rid: 7116012163079864686
+  - key: Title Font Size
+    value:
+      rid: 7116012159902679044
+  - key: Title Align Self
+    value:
+      rid: 7116012163079864683
+  - key: Title Font Style
+    value:
+      rid: 7116012163079864685
+  - key: Slider Text Field Min Width
+    value:
+      rid: 7116012163079864689
+  - key: Primary Border Radius
+    value:
+      rid: 7116012159902679050
+  - key: Primary Border Width
+    value:
+      rid: 7116012210771197988
+  - key: Input Element Height
+    value:
+      rid: 7116012159902679053
+  - key: Menu Center Left Width
+    value:
+      rid: 7116012163079864680
+  - key: Menu Center Right Width
+    value:
+      rid: 7116012163079864682
+  - key: Toggle Size
+    value:
+      rid: 7116012159902679052
+  - key: Spacer Height
+    value:
+      rid: 7116012166197542912
+  - key: Highlight Image
+    value:
+      rid: 4538809979363917825
+  references:
+    version: 2
+    RefIds:
+    - rid: 1568872811870289920
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 1}
+    - rid: 1568872811870289921
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 1568872811870289922
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 1568872811870289926
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 1}
+    - rid: 1568872811870289929
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 1568872811870289933
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 1}
+    - rid: 4538809979363917825
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5882353}
+    - rid: 7116012159902679040
+      type: {class: StyleProfileData_UIT_Font, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: {fileID: 12800000, guid: b4a3cf88010baaa4b9c8c3f1be2ccfa1, type: 3}
+    - rid: 7116012159902679042
+      type: {class: StyleProfileData_UIT_Text_Size, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 35
+        lengthUnit: 0
+        keyword: 0
+    - rid: 7116012159902679043
+      type: {class: StyleProfileData_UIT_Text_Size, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 50
+        lengthUnit: 0
+        keyword: 0
+    - rid: 7116012159902679044
+      type: {class: StyleProfileData_UIT_Text_Size, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 100
+        lengthUnit: 0
+        keyword: 0
+    - rid: 7116012159902679050
+      type: {class: StyleProfileData_UIT_Border_Radius_All, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 10
+        lengthUnit: 0
+        keyword: 0
+    - rid: 7116012159902679052
+      type: {class: StyleProfileData_UIT_Size_MinHeight, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 60
+        lengthUnit: 0
+        keyword: 0
+    - rid: 7116012159902679053
+      type: {class: StyleProfileData_UIT_Size_MinHeight, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 70
+        lengthUnit: 0
+        keyword: 0
+    - rid: 7116012163079864680
+      type: {class: StyleProfileData_UIT_Size_MinWidth, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 5
+        lengthUnit: 1
+        keyword: 0
+    - rid: 7116012163079864682
+      type: {class: StyleProfileData_UIT_Size_MinWidth, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 5
+        lengthUnit: 1
+        keyword: 0
+    - rid: 7116012163079864683
+      type: {class: StyleProfileData_UIT_Align_Self, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 2
+    - rid: 7116012163079864685
+      type: {class: StyleProfileData_UIT_Font_Style, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 1
+    - rid: 7116012163079864686
+      type: {class: StyleProfileData_UIT_Align_Self, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 2
+    - rid: 7116012163079864687
+      type: {class: StyleProfileData_UIT_Font_Style, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 1
+    - rid: 7116012163079864689
+      type: {class: StyleProfileData_UIT_Size_MinWidth, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 15
+        lengthUnit: 1
+        keyword: 0
+    - rid: 7116012166197542912
+      type: {class: StyleProfileData_UIT_Size_MinHeight, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 35
+        lengthUnit: 0
+        keyword: 0
+    - rid: 7116012210771197988
+      type: {class: StyleProfileData_UIT_Border_Width_All, ns: CitrioN.StyleProfileSystem.UIToolkit, asm: CitrioN.StyleProfileSystem.UIToolkit}
+      data:
+        value: 0
+        keyword: 0
+    - rid: 7116012210771198024
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 7116012210771198025
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 0}

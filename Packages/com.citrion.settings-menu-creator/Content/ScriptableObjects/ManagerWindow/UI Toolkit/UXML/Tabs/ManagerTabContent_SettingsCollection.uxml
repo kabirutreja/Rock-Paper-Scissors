@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.citrion.settings-menu-creator/Content/ScriptableObjects/ManagerWindow/UI%20Toolkit/USS/ManagerTab_SettingsCollection.uss?fileID=7433441132597879392&amp;guid=d0bb789a2ff328346884f5fe6d24bd6d&amp;type=3#ManagerTab_SettingsCollection" />
+    <ui:VisualElement style="width: 100%; height: 100%;">
+        <ui:Label text="Settings Collection Editor" name="Header" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 16px; padding-top: 5px; padding-bottom: 5px; white-space: normal;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="HelpButton" class="button__toggle-descriptions" style="position: absolute; right: 0; margin-top: 5px;" />
+        <ui:Label text="The SettingsCollection is where you add, remove &amp; modify your settings. You can also create or change a variety of aspects on a settings menu layout prefab such as adding UI elements for your settings, reordering existing UI elements based or your settings list and many more." display-tooltip-when-elided="true" enable-rich-text="false" name="Description" style="margin-bottom: 10px; white-space: normal; -unity-text-align: upper-center;" />
+        <ui:VisualElement style="flex-direction: column; margin-bottom: 3px;">
+            <ui:VisualElement name="SettingsCollection" style="flex-grow: 1;">
+                <uie:ObjectField label="Object Field" class="profile-field field__settings-collection" />
+                <ui:Button text="Create" class="button__create-profile" style="margin-bottom: 5px; display: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Info" class="container__info" style="flex-grow: 1; flex-direction: row; display: flex; justify-content: center; margin-top: 20px;">
+                <ui:VisualElement style="height: 20px;">
+                    <ui:Label text="Assign a &lt;b&gt;Settings Collection&lt;/b&gt; to start editing." style="height: 3px; font-size: 14px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 10px;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" class="container__settings-collection" style="width: 100%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

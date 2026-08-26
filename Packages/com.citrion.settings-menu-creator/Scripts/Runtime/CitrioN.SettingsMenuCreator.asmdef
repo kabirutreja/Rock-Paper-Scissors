@@ -1,0 +1,49 @@
+{
+    "name": "CitrioN.SettingsMenuCreator",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cfac1490b1124fd4e99a26beaf1a860f",
+        "GUID:5c6b77a34c2fa9a41a8d6cb41a15cfb4",
+        "GUID:9eaed9776b618724183123d54a3be2e8",
+        "GUID:d47eac736b323874190197ee9fe15175",
+        "GUID:ea075e8247ae16943b7aecd5cfc72c04",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d63b70d4e9bfba04b8c4dd00b719b4b7",
+        "GUID:c1fd6c71b73d6124eab8e64131e933d7",
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:457756d89b35d2941b3e7b37b4ece6f1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_2021_3_OR_NEWER"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.postprocessing",
+            "expression": "3.2.2",
+            "define": "UNITY_POST_PROCESSING"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "3.0.6",
+            "define": "TEXT_MESH_PRO"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "11.0.0",
+            "define": "UNITY_HDRP"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "11.0.0",
+            "define": "UNITY_URP"
+        }
+    ],
+    "noEngineReferences": false
+}

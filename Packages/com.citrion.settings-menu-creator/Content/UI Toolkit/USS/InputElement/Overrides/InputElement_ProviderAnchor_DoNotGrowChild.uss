@@ -1,0 +1,6 @@
+.provider-anchor {
+}
+
+.provider-anchor > .unity-base-field {
+    flex-grow: 0;
+}

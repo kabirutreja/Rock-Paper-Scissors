@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957a6721f6c22354c94b1814210449b5, type: 3}
+  m_Name: IntegrationPackageData_Beautify_Builtin
+  m_EditorClassIdentifier: 
+  displayName: Beautify 3 - Advanced Post Processing (Builtin)
+  group: 'SMC: Integrations'
+  description: Beautify is a full-screen image post processing effect that improves
+    the image quality in real time producing incredibly crisp and vivid scenes.
+  priority: 1
+  publisherName: Kronnect
+  assetUrl: https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/beautify-3-advanced-post-processing-233073
+  integrationDetails: Adds 21 settings to manipulate Beautify at runtime in the built-in
+    render pipeline.
+  packageAsset: {fileID: 102900000, guid: 7e087110e19f254488a0b95e2954679a, type: 3}
+  assetReferenceAsset: {fileID: 11500000, guid: 54415757aaddf4b8a9cd7122fd120cc6, type: 3}
+  integrationReferenceAsset: {fileID: 102900000, guid: 5cebefe5945f2174189811ae314b4972, type: 3}

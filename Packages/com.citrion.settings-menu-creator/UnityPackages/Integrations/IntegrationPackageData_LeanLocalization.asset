@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957a6721f6c22354c94b1814210449b5, type: 3}
+  m_Name: IntegrationPackageData_LeanLocalization
+  m_EditorClassIdentifier: 
+  displayName: Lean Localization
+  group: 'SMC: Integrations'
+  description: Quickly add multi-language support to your games using Lean Localization.
+    This lightweight asset allows you to localize text, sounds, load CSV, and much
+    more!
+  priority: 1
+  publisherName: Carlos Wilkes
+  assetUrl: https://assetstore.unity.com/packages/tools/localization/lean-localization-28504
+  integrationDetails: 'Adds support to localize the settings menu using Lean Localization.
+
+    Adds
+    a language setting to allow changing the Lean Localization language.'
+  packageAsset: {fileID: 102900000, guid: 27fe402c10ec164439d5a460ca002aa7, type: 3}
+  assetReferenceAsset: {fileID: 5897886265953266890, guid: 218c8d088c76f5f45b9b3de347da2c05, type: 3}
+  integrationReferenceAsset: {fileID: 102900000, guid: 4032c0148d807b245878ee3a6da647b8, type: 3}

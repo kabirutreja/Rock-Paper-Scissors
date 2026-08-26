@@ -1,0 +1,5 @@
+The Open Font License applies to the 2 following fonts included in the asset:
+1. Liberation Sans
+2. Liberation Serif
+
+For details read the license documents in their respective folders.

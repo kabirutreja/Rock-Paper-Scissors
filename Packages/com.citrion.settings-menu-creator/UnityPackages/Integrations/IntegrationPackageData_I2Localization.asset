@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957a6721f6c22354c94b1814210449b5, type: 3}
+  m_Name: IntegrationPackageData_I2Localization
+  m_EditorClassIdentifier: 
+  displayName: I2 Localization
+  group: 'SMC: Integrations'
+  description: This is currently the most complete localization system available
+    for Unity.
+  priority: 1
+  publisherName: Inter Illusion
+  assetUrl: https://assetstore.unity.com/packages/tools/localization/i2-localization-14884
+  integrationDetails: 'Adds support to localize the settings menu using I2 Localization.
+
+    Adds
+    a language setting to allow changing the I2 Localization language.'
+  packageAsset: {fileID: 102900000, guid: b73b9347de4d3cb4a873ffacbbb5687d, type: 3}
+  assetReferenceAsset: {fileID: 102900000, guid: 9128d55e94678d14d8abb239b4a0cc9d, type: 3}
+  integrationReferenceAsset: {fileID: 102900000, guid: 75f287e4afd5fc4478a74f0a6655da67, type: 3}

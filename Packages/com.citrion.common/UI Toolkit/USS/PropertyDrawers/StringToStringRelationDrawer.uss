@@ -1,0 +1,23 @@
+.property-field__string-to-string {
+    flex-grow: 1;
+}
+
+.property-field__value {
+}
+
+.property-field__key {
+}
+
+.property-field__hide-label > .unity-text-field > .unity-label {
+    display: none;
+}
+
+.property-field__string-to-string {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.spacer {
+    min-width: 10px;
+    max-width: 5px;
+}

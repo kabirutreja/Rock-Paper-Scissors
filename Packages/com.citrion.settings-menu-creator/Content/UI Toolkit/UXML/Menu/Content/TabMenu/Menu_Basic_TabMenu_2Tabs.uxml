@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="TabMenu_TabTemplate" src="project://database/Packages/com.citrion.settings-menu-creator/Content/UI%20Toolkit/UXML/Menu/Content/TabMenu/TabMenu_TabTemplate.uxml?fileID=9197481963319205126&amp;guid=5eebe179613ad834aaf4c58def1c405f&amp;type=3#TabMenu_TabTemplate" />
+    <ui:VisualElement name="menu-content" class="menu__content">
+        <ui:VisualElement name="header" class="menu__header">
+            <ui:VisualElement name="header__left-container" class="menu__header__left-container" />
+            <ui:VisualElement name="header__center-container" class="menu__header__center-container menu-title" />
+            <ui:VisualElement name="header__right-container" class="menu__header__right-container" />
+        </ui:VisualElement>
+        <ui:VisualElement name="center" class="menu__center">
+            <ui:VisualElement name="center__left-container" class="menu__center__left-container" />
+            <ui:VisualElement name="center__center-container" class="menu__center__center-container">
+                <CitrioN.Common.TabMenu tab-names="Tab One, Tab Two, Tab 3,">
+                    <ui:ScrollView class="settings-parent" />
+                    <ui:ScrollView class="settings-parent-2" />
+                    <ui:Instance template="TabMenu_TabTemplate" name="TabMenu_TabTemplate" />
+                </CitrioN.Common.TabMenu>
+            </ui:VisualElement>
+            <ui:VisualElement name="center__right-container" class="menu__center__right-container" />
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" class="menu__footer">
+            <ui:VisualElement name="footer__left-container" class="menu__footer__left-container" />
+            <ui:VisualElement name="footer__center-container" class="menu__footer__center-container buttons-parent" />
+            <ui:VisualElement name="footer__right-container" class="menu__footer__right-container" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

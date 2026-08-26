@@ -1,0 +1,76 @@
+.prev-next-selector {
+}
+
+.prev-next-selector__label {
+    -unity-text-align: middle-left;
+}
+
+.prev-next-selector__input {
+    flex-direction: row;
+}
+
+.prev-next-selector__prev-button {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    flex-grow: 1;
+    margin: 0px;
+}
+
+.prev-next-selector__prev-button__image {
+    background-image: url('project://database/Packages/com.citrion.ui.images/Resources/Images/Common/DropdownArrow.png?fileID=21300000&guid=1fde7f841ca457a43800c9239fc367ac&type=3#DropdownArrow');
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    rotate: 90deg;
+/*    -unity-background-image-tint-color: rgb(0, 0, 0);*/
+    margin-left: 0px;
+    margin-right: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    -unity-background-scale-mode: scale-to-fit;
+/*    -unity-slice-scale: 5px;*/
+}
+
+.prev-next-selector__item-label {
+    flex-grow: 99;
+    flex-shrink: 1;
+    -unity-text-align: middle-center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    /* Option is not currently available in the UI Builder */
+    overflow: hidden;
+    /*-unity-text-overflow-position: end;*/ /* Possible values: start | middle | end */
+}
+
+.prev-next-selector__next-button {
+    flex-grow: 1;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px;
+}
+
+.prev-next-selector__next-button__image {
+    background-image: url('project://database/Packages/com.citrion.ui.images/Resources/Images/Common/DropdownArrow.png?fileID=21300000&guid=1fde7f841ca457a43800c9239fc367ac&type=3#DropdownArrow');
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    rotate: -90deg;
+/*    -unity-background-image-tint-color: rgb(0, 0, 0);*/
+    margin-left: 7px;
+    margin-right: 0px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    -unity-background-scale-mode: scale-to-fit;
+/*    -unity-slice-scale: 5px;*/
+}

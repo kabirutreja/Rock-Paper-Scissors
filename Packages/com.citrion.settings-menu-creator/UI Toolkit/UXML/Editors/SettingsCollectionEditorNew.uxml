@@ -1,0 +1,89 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Button text="Open In Editor Window" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__open-in-editor" class="button__open-in-editor" style="flex-basis: 25px; margin-bottom: 5px;" />
+        <ui:Foldout text="References" value="false" name="References" view-data-key="foldout-references" class="foldout__background">
+            <uie:PropertyField name="property-field__identifier" class="property-field__identifier" />
+            <uie:PropertyField name="property-field__apply-immediately-mode" class="property-field__apply-immediately-mode" />
+            <uie:PropertyField name="property-field__settings-saver" class="property-field__settings-saver" />
+            <uie:PropertyField name="property-field__input-element-templates_ugui" class="property-field__input-element-templates_ugui" />
+            <uie:PropertyField name="property-field__input-element-templates_uitoolkit" class="property-field__input-element-templates_uitoolkit" />
+            <uie:PropertyField name="property-field__audio-mixer" class="property-field__audio-mixer" />
+            <uie:PropertyField name="property-field__localizer" class="property-field__localizer" />
+            <uie:PropertyField name="property-field__post-process-profile" class="property-field__post-process-profile" />
+            <uie:PropertyField name="property-field__volume-profile" class="property-field__volume-profile" />
+        </ui:Foldout>
+        <ui:Foldout text="Menu Layout Prefab (UGUI)" name="UI" value="true" view-data-key="foldout-ui" class="foldout__background">
+            <uie:PropertyField name="property-field__layout-prefab" class="property-field__layout-prefab" />
+            <uie:PropertyField name="property-field__provider-collection-override" class="property-field__provider-collection-override" />
+            <uie:PropertyField name="property-field__style-profile" class="property-field__style-profile" />
+            <ui:Toggle label="Toggle" name="toggle__add-style-profile-editor-listener" class="toggle__add-style-profile-editor-listener" />
+            <ui:Toggle label="Toggle" name="toggle__add-apply-style-profile" class="toggle__add-apply-style-profile" />
+            <ui:VisualElement name="Buttons" style="align-items: stretch; justify-content: flex-start; flex-direction: row; margin-top: 5px; margin-right: 0; margin-bottom: 5px; margin-left: 5px; flex-wrap: wrap;">
+                <ui:VisualElement style="flex-grow: 1; justify-content: space-between; flex-direction: row; flex-wrap: wrap; width: 339px;">
+                    <ui:VisualElement class="box-border box-spacing" style="flex-grow: 1; margin-bottom: 5px; margin-top: 5px; min-width: 150px;">
+                        <ui:Label tabindex="-1" text="Utility" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; white-space: normal; margin-bottom: 5px;" />
+                        <ui:VisualElement style="justify-content: space-between; flex-direction: row; flex-wrap: wrap;">
+                            <ui:Button text="Open Prefab" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__open-layout-prefab" class="button__open-layout-prefab" style="flex-basis: auto; flex-shrink: 1; flex-grow: 1;" />
+                            <ui:Button text="Create Prefab" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__create-prefab" class="button__create-prefab" style="flex-shrink: 1; flex-grow: 1; flex-basis: auto;" />
+                            <ui:Button text="Update Prefab" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__update-prefab" class="button__update-prefab" style="flex-shrink: 1; flex-grow: 1; flex-basis: auto;" />
+                            <ui:Button text="Initialize Elements" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button__initialize-elements" style="flex-shrink: 1; flex-grow: 1; flex-basis: auto;" />
+                            <ui:Button text="Add StyleProfile Scripts" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__add-styleprofile-scripts" class="button__add-styleprofile-scripts" style="flex-shrink: 1; flex-grow: 1; flex-basis: auto;" />
+                            <ui:Button text="Remove StyleProfile Scripts" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__remove-styleprofile-scripts" class="button__remove-styleprofile-scripts" style="flex-shrink: 1; flex-grow: 1; flex-basis: auto;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="box-border box-spacing" style="flex-grow: 1; margin-top: 5px; margin-bottom: 5px; min-width: 150px;">
+                        <ui:Label tabindex="-1" text="Add &amp; Remove UI Elements " parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; white-space: normal; margin-bottom: 5px;" />
+                        <ui:VisualElement style="flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+                            <ui:Button text="Add All" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__add-elements" class="button__add-elements" style="flex-shrink: 1; flex-grow: 1;" />
+                            <ui:Button text="Add Selected" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__add-selected-elements" class="button__add-selected-elements" style="flex-shrink: 1; flex-grow: 1;" />
+                            <ui:Button text="Remove All" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__destroy-elements" class="button__destroy-elements" style="flex-shrink: 1; flex-grow: 1;" />
+                            <ui:Button text="Remove Selected" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__destroy-selected-elements" class="button__destroy-selected-elements" style="flex-shrink: 1; flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="box-border box-spacing" style="flex-grow: 1; margin-top: 5px; margin-bottom: 5px; min-width: 150px;">
+                        <ui:Label tabindex="-1" text="Reorder UI Elements To Match Settings List" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; white-space: normal; margin-bottom: 5px;" />
+                        <ui:VisualElement style="flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+                            <ui:Button text="Reorder All" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__match-order-elements" class="button__match-order-elements" style="flex-shrink: 1; flex-grow: 1;" />
+                            <ui:Button text="Reorder Selected" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__match-order-selected-elements" class="button__match-order-selected_elements" style="flex-shrink: 1; flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="box-border box-spacing" style="flex-grow: 1; margin-top: 5px; margin-bottom: 5px;">
+                        <ui:Label tabindex="-1" text="Reorder Settings List To Match UI Elements" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; white-space: normal; margin-bottom: 5px;" />
+                        <ui:Button text="Reorder Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__match-order-list" class="button__match-order-list" style="flex-shrink: 1; flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="box-border box-spacing" style="flex-grow: 1; margin-top: 5px; margin-bottom: 5px; min-width: 150px;">
+                        <ui:Label tabindex="-1" text="Select UI Elements" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; white-space: normal; margin-bottom: 5px;" />
+                        <ui:VisualElement style="flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+                            <ui:Button text="Select All" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__select-elements" class="button__select-elements" style="flex-shrink: 1; flex-grow: 1;" />
+                            <ui:Button text="Select Selected" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__select-selected-elements" class="button__select-selected-elements" style="flex-shrink: 1; flex-grow: 1;" />
+                            <ui:Button text="Show All Settings Objects" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__show-setting-objects" class="button__show-setting-objects" style="flex-shrink: 1; flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Foldout>
+        <ui:VisualElement style="display: none;" />
+        <ui:Foldout text="Settings" name="Settings" view-data-key="foldout-settings" class="container__settings foldout__background">
+            <ui:VisualElement class="container__settings-list" style="margin-right: 5px; margin-left: 5px;">
+                <ui:VisualElement name="drop-area" class="box-border drop-area">
+                    <ui:Label text="Drop a collection here to add all its settings" name="drop-area__label" class="drop-area__label" style="white-space: normal;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="spacer" style="max-height: 10px; min-height: 10px;" />
+                <ui:Button text="Refresh List View" name="RefreshListView" class="button__utility button__rebuild-list-view" style="flex-grow: 0;" />
+                <ui:Foldout text="Foldout" name="foldout__advanced-settings" class="foldout__advanced-settings" style="display: none;" />
+                <ui:VisualElement name="spacer" style="max-height: 15px; min-height: 15px;" />
+                <ui:ListView name="settings-list" class="settings-list" style="max-height: 475px;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="container__setting-details" style="margin-right: 5px; margin-left: 5px;">
+                <ui:VisualElement name="selected-setting-container" class="container__selected-setting" style="margin-top: 10px;">
+                    <ui:VisualElement name="container__multi-setting-selection" class="container__multi-setting-selection box-border" style="flex-grow: 1; display: none;">
+                        <ui:Label tabindex="-1" text="Multiple settings selected!&#10;Common fields can be modified for all of them." parse-escape-sequences="true" display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; margin-bottom: 10px; margin-top: 5px;" />
+                        <ui:Toggle label="Apply Immediately" name="toggle__apply-immediately" class="toggle__apply-immediately" />
+                        <ui:Toggle label="Override Identifier When Copied" name="toggle__override-identifier-when-copied" class="toggle__override-identifier-when-copied" />
+                        <ui:TextField picking-mode="Ignore" label="Parent Identifier" name="field__parent-identifier" class="field__parent-identifier" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

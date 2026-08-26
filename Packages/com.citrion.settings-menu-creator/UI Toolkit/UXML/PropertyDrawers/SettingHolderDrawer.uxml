@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Header" class="box-border" style="flex-direction: row; justify-content: space-between; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px;">
+        <ui:Label name="setting-type-label" text="Label" class="setting-type-label" style="-unity-text-align: middle-left;" />
+        <ui:Button name="property-change-button" text="Change button" class="property-change-button" />
+    </ui:VisualElement>
+    <CitrioN.Common.TabMenu tab-names="Setting, Advanced">
+        <ui:VisualElement name="Setting" class="box-border setting-tab">
+            <ui:Label text="Setting" class="box-label" style="display: none;" />
+            <uie:PropertyField class="property-field" />
+            <ui:VisualElement name="spacer" style="min-height: 10px;" />
+            <uie:PropertyField name="active-input-element-label__property-field" />
+            <uie:PropertyField name="input-element-label__property-field" class="input-element-label__property-field" />
+            <ui:VisualElement name="ApplyImmediately" style="flex-direction: row;">
+                <ui:Toggle label="Toggle" class="apply-immediately-toggle" style="flex-grow: 1;" />
+                <ui:Button text="Sync Selected" class="apply-immediately__button sync-selected__button" style="display: none;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Advanced" class="box-border setting-tab">
+            <ui:Label text="General" name="general-label" class="header" />
+            <ui:TextField label="Text Field" name="identifier-text-field" class="identifier-text-field" />
+            <ui:VisualElement name="OverrideIdentifierWhenCopied" style="flex-direction: row;">
+                <ui:Toggle label="Toggle" class="override-identifier-when-copied-toggle" style="flex-grow: 1;" />
+                <ui:Button text="Sync Selected" class="sync-selected__button override-identifier-when-copied__button" style="display: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="spacer" style="min-height: 15px;" />
+            <ui:VisualElement>
+                <ui:Label text="Input" name="input-label" class="header" />
+                <uie:PropertyField class="input-element-provider-settings__property-field" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </CitrioN.Common.TabMenu>
+    <ui:VisualElement name="General" class="box-border" style="display: none;" />
+</ui:UXML>

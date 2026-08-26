@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957a6721f6c22354c94b1814210449b5, type: 3}
+  m_Name: IntegrationPackageData_UnityLocalization
+  m_EditorClassIdentifier: 
+  displayName: Unity Localization
+  group: 'SMC: Integrations'
+  description: Use Unity's Localization package to easily configure localization
+    settings for your application.
+  priority: 1
+  publisherName: Unity Technologies Inc.
+  assetUrl: https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html
+  integrationDetails: Adds support to localize the settings menu using Unity's Localization
+    package. Adds a language setting to allow changing the language for Unity's localization.
+  packageAsset: {fileID: 102900000, guid: 6b06c47879a1c3848b333f8394409865, type: 3}
+  assetReferenceAsset: {fileID: 0}
+  packageId: com.unity.localization
+  integrationReferenceAsset: {fileID: 102900000, guid: ae9616d866d58de41ae4f4d10a69dca2, type: 3}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="padding-left: 4px; padding-bottom: 4px;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; margin-top: 3px;">
+            <ui:Label text="Label" class="label__item-name" style="-unity-text-align: middle-left; -unity-font-style: bold; flex-grow: 1; width: 70%;" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-around; margin-bottom: 3px; flex-shrink: 0; width: 30%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="button__offline-documentation" style="flex-grow: 1;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="button__online-documentation" style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,49 @@
+.tab-menu {
+}
+
+.tab-menu__tabs-container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    border-left-color: var(--unity-colors-button-border-pressed);
+    border-right-color: var(--unity-colors-button-border-pressed);
+    border-top-color: var(--unity-colors-button-border-pressed);
+    border-bottom-color: var(--unity-colors-button-border-pressed);
+}
+
+.tab-menu__tab {
+    -unity-text-align: upper-center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 90px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--unity-colors-toolbar_button-background-focus);
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.tab-menu__tab__selected {
+    -unity-font-style: bold;
+    background-color: var(--unity-colors-button-background);
+}

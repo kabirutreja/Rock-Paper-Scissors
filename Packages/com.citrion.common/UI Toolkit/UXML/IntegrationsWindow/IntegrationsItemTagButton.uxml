@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button text="Tag" display-tooltip-when-elided="true" class="container" style="-unity-font-style: italic; font-size: 10px;" />
+</ui:UXML>

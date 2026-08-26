@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957a6721f6c22354c94b1814210449b5, type: 3}
+  m_Name: IntegrationPackageData_TNDUpscaler
+  m_EditorClassIdentifier: 
+  displayName: 'Upscaler Framework by TND for Unity '
+  group: 'SMC: Integrations'
+  description: Optimize and increase your framerate with various Upscalers by TND
+    such as DLSS, FSR3 and more.
+  priority: 1
+  publisherName: The Naked Dev
+  assetUrl: https://assetstore.unity.com/lists/upscalers-by-tnd-9072301707265
+  integrationDetails: Adds 3 settings to customize the upscaler by TND at runtime.
+  packageAsset: {fileID: 102900000, guid: b94660d50eb60d744891f518e34316b1, type: 3}
+  assetReferenceAsset: {fileID: 0}
+  packageId: com.tnd.upscaling
+  integrationReferenceAsset: {fileID: 102900000, guid: 0ac3e541f5296e94ebd62f329e11776a,
+    type: 3}

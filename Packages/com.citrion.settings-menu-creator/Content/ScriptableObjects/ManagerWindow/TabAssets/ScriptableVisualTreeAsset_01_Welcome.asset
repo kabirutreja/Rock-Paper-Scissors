@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc9670c7d6a6f64997d7470907c90f4, type: 3}
+  m_Name: ScriptableVisualTreeAsset_01_Welcome
+  m_EditorClassIdentifier: 
+  displayName: Welcome
+  uxml: {fileID: 9197481963319205126, guid: 40b000d5cb6b63c43a707b265c3fec7e, type: 3}
+  styleSheet: {fileID: 7433441132597879392, guid: 05517edeccb98c942abe4b91c394ad73, type: 3}
+  controller: {fileID: 11400000, guid: 2a89e5fceba30924da42e7b43330f7af, type: 2}

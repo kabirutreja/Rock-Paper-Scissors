@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="container__default-inspector" class="container__default-inspector" style="flex-grow: 1;" />
+    <ui:VisualElement class="box-border" style="flex-grow: 1; margin-top: 10px;">
+        <ui:Label tabindex="-1" text="Initialize" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; white-space: normal; margin-bottom: 5px; -unity-font-style: bold;" />
+        <ui:VisualElement style="flex-grow: 1; justify-content: space-between; flex-direction: row; flex-wrap: wrap;">
+            <ui:Button text="Everything" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__initialize-everything" class="button__initialize-everything" style="flex-shrink: 1; flex-grow: 1;" />
+            <ui:Button text="Tabs" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__initialize-tabs" class="button__initialize-tabs" style="flex-shrink: 1; flex-grow: 1;" />
+            <ui:Button text="Tab Names" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__initialize-tab-names" class="button__initialize-tab-names" style="flex-shrink: 1; flex-grow: 1;" />
+            <ui:Button text="Tab Contents" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button__initialize-tab-contents" class="button__initialize-tab-contents" style="flex-shrink: 1; flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement class="box-border" style="flex-grow: 1; margin-top: 10px;">
+        <ui:Label tabindex="-1" text="Select Tabs" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; white-space: normal; margin-bottom: 5px; -unity-font-style: bold;" />
+        <ui:VisualElement name="container__buttons__select-tabs" class="container__buttons__select-tabs" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap; justify-content: space-between;" />
+    </ui:VisualElement>
+</ui:UXML>

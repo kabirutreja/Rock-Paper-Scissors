@@ -1,0 +1,17 @@
+{
+  "name": "com.citrion.common",
+  "version": "1.3.6",
+  "displayName": "CitrioN - Common",
+  "unity": "2021.3",
+  "keywords": [
+    "code"
+  ],
+  "author": {
+    "name": "CitrioN"
+  },
+  "description": "Common code used in various assets by CitrioN.",
+  "dependencies": {
+    "com.unity.editorcoroutines": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
+}

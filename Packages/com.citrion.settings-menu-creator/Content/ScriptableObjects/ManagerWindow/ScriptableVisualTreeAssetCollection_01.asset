@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4100fe7e79504d347a81d60663ea4e76, type: 3}
+  m_Name: ScriptableVisualTreeAssetCollection_01
+  m_EditorClassIdentifier: 
+  assets:
+  - {fileID: 11400000, guid: ed9d35a17c47692418a87140c7b38c02, type: 2}
+  - {fileID: 11400000, guid: e52129e0109d66348b252aa0ae685745, type: 2}
+  - {fileID: 11400000, guid: 25cec62ace0222b428127c8b65cb70f4, type: 2}
+  - {fileID: 11400000, guid: d004ae0c6f760a54dbd887992a60847f, type: 2}
+  - {fileID: 11400000, guid: fd6cd96e21953cb43b30b6bb91da21ac, type: 2}
+  - {fileID: 11400000, guid: 165320549c98cc8479120593379cf69e, type: 2}
+  - {fileID: 11400000, guid: b321b4893427de04d9128b5b1cc2f9b0, type: 2}
+  - {fileID: 11400000, guid: b52a8175d3ff5a34b936773a438e21d2, type: 2}

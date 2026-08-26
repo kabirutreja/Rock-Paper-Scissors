@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2a2884de0f17e44829ce45f526b8a2, type: 3}
+  m_Name: IntegrationsController
+  m_EditorClassIdentifier: 
+  groupName: 'SMC: Integrations'
+  listItemTemplate: {fileID: 9197481963319205126, guid: 11a9901a6a3006445b791a1e902e35b2, type: 3}
+  tagTemplate: {fileID: 9197481963319205126, guid: 4c8a33d56f161d844a7b2b66af89fec5, type: 3}
+  headerLabelClass: manager__tab__title
+  descriptionLabelClass: label__description
+  headerText: Integrations
+  description: Below you find a list of integrations for other assets. In most cases
+    they add files to the project which add extra functionality or make the compatibility
+    between the asset and the Settings Menu Creator easier. This could for example
+    be new settings for the third party asset or prefabs containing visuals so they
+    can be immediately used with the Settings Menu Creator without additional set
+    up. They will usually be imported to Assets > CitrioN > SMC > Integrations. If
+    you think a certain asset should have an integration please join the discord
+    and create a feature request for it. If you are an asset publisher and think
+    an integration between our assets would be useful to our customers please reach
+    out to me.

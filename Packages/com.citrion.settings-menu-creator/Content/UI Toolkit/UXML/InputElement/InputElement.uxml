@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="InputElementRoot" picking-mode="Ignore" class="input-element__root">
+        <ui:VisualElement name="Backgrounds" picking-mode="Ignore" class="input-element__backgrounds">
+            <ui:VisualElement picking-mode="Ignore" name="OnFocused" class="on-focused input-element__on-focused__background-1" />
+            <ui:VisualElement picking-mode="Ignore" name="OnFocused" class="on-focused input-element__on-focused__background-2" />
+            <ui:VisualElement picking-mode="Ignore" name="OnFocused" class="on-focused input-element__on-focused__background-3" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Content" picking-mode="Ignore" class="input-element__content">
+            <ui:VisualElement name="LabelContainer" picking-mode="Ignore" class="input-element__label-container">
+                <ui:VisualElement name="Backgrounds" picking-mode="Ignore" class="input-element__label-container__backgrounds" />
+                <ui:VisualElement name="Content" picking-mode="Ignore" class="input-element__label-container__content">
+                    <ui:Label picking-mode="Ignore" text="Label" class="input-element__label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Overlays" picking-mode="Ignore" class="input-element__label-container__overlays" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ElementContainer" picking-mode="Ignore" class="input_element__element-container">
+                <ui:VisualElement name="Backgrounds" picking-mode="Ignore" class="input-element__element-container__backgrounds" />
+                <ui:VisualElement name="Content" picking-mode="Ignore" class="input-element__element-container__content provider-anchor" />
+                <ui:VisualElement name="Overlays" picking-mode="Ignore" class="input-element__element-container__overlays" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Overlays" picking-mode="Ignore" class="input-element__overlays" />
+    </ui:VisualElement>
+</ui:UXML>

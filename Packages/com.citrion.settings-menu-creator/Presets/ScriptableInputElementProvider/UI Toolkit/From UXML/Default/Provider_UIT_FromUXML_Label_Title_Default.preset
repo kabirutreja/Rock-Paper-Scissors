@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Provider_UIT_FromUXML_Label_Title_Default
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 41ef0c424137c0c4397e22417752e541, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.data[0]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 3e241927fcd3a4243a305f390ed1654e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: classNames.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: classNames.Array.data[0]
+    value: title
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: templates.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

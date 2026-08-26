@@ -1,0 +1,6 @@
+This text file serves as the explanation for the USS file with the same name as this text file. Due to comments in USS files being removed when saved in a UI Document this is a way to allow comments and explanations to be added for the corresponding file.
+
+.menu__center__center-container > ScrollView {
+    margin-left: 25px;
+    margin-right: 25px;
+}

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="backgrounds" class="menu__backgrounds">
+        <ui:VisualElement name="background-1" class="menu__background-1" />
+        <ui:VisualElement name="background-2" class="menu__background-2" />
+    </ui:VisualElement>
+</ui:UXML>

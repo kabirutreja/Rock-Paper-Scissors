@@ -1,0 +1,3 @@
+.menu__center__center-container > ScrollView {
+    min-width: 50%;
+}

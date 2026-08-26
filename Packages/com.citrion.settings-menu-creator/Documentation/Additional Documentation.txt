@@ -1,0 +1,4 @@
+If the Pro version is imported you find additional documentation located at:
+Packages/CitrioN - Settings Menu Creator - Pro/Documentation.
+
+You find the documentation for other addons in their respective Documentation folders too.

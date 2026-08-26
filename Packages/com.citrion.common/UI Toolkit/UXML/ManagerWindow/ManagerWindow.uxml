@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/TabMenu.uss?fileID=7433441132597879392&amp;guid=2535af98ecb4cfa44a30e64fb95e6118&amp;type=3#TabMenu" />
+    <CitrioN.Common.TabMenu class="manager__tab-menu">
+        <ui:VisualElement class="tab-menu__tab-template" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" class="tab-menu__tab__label" />
+        </ui:VisualElement>
+    </CitrioN.Common.TabMenu>
+</ui:UXML>

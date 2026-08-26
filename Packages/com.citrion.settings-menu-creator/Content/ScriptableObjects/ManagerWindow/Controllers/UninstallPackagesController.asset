@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e99c007dddb1e449e05a9f62b75073, type: 3}
+  m_Name: UninstallPackagesController
+  m_EditorClassIdentifier: 
+  groupName: 'SMC: Packages To Remove'
+  listItemTemplate: {fileID: 9197481963319205126, guid: 1f51c1bc144e67248b70d019211e0314, type: 3}
+  onCancelActions:
+  - {fileID: 11400000, guid: b2db5851ad8473c45b6b807feed88a8b, type: 2}

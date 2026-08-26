@@ -1,0 +1,10 @@
+#unity-input-m_Script {
+    display: none;
+}
+
+.label__title {
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-top: 6px;
+    margin-left: 16px;
+}

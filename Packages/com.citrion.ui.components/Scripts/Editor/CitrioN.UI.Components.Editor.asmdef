@@ -1,0 +1,28 @@
+{
+    "name": "CitrioN.UI.Components.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cfac1490b1124fd4e99a26beaf1a860f",
+        "GUID:9111a8b9994e2d2449c9aa17c5c840b1",
+        "GUID:d47eac736b323874190197ee9fe15175",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR",
+        "UNITY_2021_3_OR_NEWER"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "3.0.6",
+            "define": "TEXT_MESH_PRO"
+        }
+    ],
+    "noEngineReferences": false
+}

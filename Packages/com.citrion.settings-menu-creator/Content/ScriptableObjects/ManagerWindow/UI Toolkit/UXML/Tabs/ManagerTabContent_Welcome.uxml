@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 100%; height: 100%; flex-grow: 1;">
+        <ui:Label text="Welcome" class="manager__tab__title" />
+        <ui:VisualElement style="flex-grow: 0; flex-direction: column; margin-top: 10px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; flex-shrink: 1;">
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" class="label__intro" style="white-space: normal; -unity-text-align: upper-center; margin-top: 5px; margin-bottom: 25px;" />
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" class="label__customer" style="white-space: normal; margin-top: 5px; -unity-text-align: upper-center; margin-bottom: 25px;" />
+            <ui:Label parse-escape-sequences="true" name="Header" text="Documentation" style="-unity-text-align: upper-center; font-size: 14px; -unity-font-style: bold;" />
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" name="Documentation" class="label__documentation" style="white-space: normal; -unity-text-align: upper-center; margin-top: 5px; margin-bottom: 25px;" />
+            <ui:Label parse-escape-sequences="true" name="Header" text="Samples" style="-unity-text-align: upper-center; font-size: 14px; -unity-font-style: bold;" />
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" name="Samples" class="label__samples" style="white-space: normal; margin-top: 5px; -unity-text-align: upper-center; margin-bottom: 25px;" />
+            <ui:Label parse-escape-sequences="true" name="Header" text="Get Started" style="-unity-text-align: upper-center; font-size: 14px; -unity-font-style: bold;" />
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" name="GetStarted" class="label__getstarted" style="white-space: normal; margin-top: 5px; -unity-text-align: upper-center; margin-bottom: 25px;" />
+            <ui:Label parse-escape-sequences="true" name="Header" text="Support" style="-unity-text-align: upper-center; font-size: 14px; -unity-font-style: bold;" />
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" name="Support" class="label__support" style="white-space: normal; margin-top: 5px; -unity-text-align: upper-center; margin-bottom: 25px;" />
+            <ui:Label parse-escape-sequences="true" name="Header" text="Remove the asset" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 14px;" />
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" name="RemoveAsset" class="label__uninstall" style="white-space: normal; margin-top: 5px; -unity-text-align: upper-center; margin-bottom: 25px;" />
+            <ui:Label display-tooltip-when-elided="true" parse-escape-sequences="true" name="ThankYou" class="label__thanks" style="white-space: normal; margin-top: 5px; -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="margin-top: 10px; flex-grow: 1;">
+            <ui:VisualElement class="image__asset-comparison" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

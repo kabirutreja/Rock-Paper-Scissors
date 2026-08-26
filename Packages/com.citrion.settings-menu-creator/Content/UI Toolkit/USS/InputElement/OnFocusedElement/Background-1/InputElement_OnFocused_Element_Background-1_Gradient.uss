@@ -1,0 +1,8 @@
+.input-element__on-focused__background-1 {
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    top: 0;
+    left: 0;
+    background-image: url('project://database/Packages/com.citrion.ui.images/Resources/Images/Common/Gradient.png?fileID=21300000&guid=141bbd851f48994469b1cdb63ee14e5d&type=3#Gradient');
+}

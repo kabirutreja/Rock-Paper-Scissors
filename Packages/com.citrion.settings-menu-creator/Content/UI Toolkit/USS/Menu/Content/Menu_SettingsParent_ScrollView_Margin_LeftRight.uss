@@ -1,0 +1,4 @@
+.menu__center__center-container > ScrollView {
+    margin-left: 25px;
+    margin-right: 25px;
+}

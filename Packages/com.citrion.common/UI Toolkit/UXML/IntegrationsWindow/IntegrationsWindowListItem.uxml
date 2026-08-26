@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Button focusable="false" picking-mode="Ignore" class="container" style="margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; padding-top: 2px; padding-right: 0; padding-bottom: 4px; padding-left: 4px; flex-direction: row; flex-shrink: 1; flex-grow: 0; align-items: flex-start; max-height: 165px; justify-content: space-around; flex-wrap: nowrap;">
+        <ui:VisualElement style="flex-direction: column; flex-grow: 1;">
+            <ui:VisualElement style="flex-shrink: 0; flex-grow: 1; flex-direction: column;">
+                <ui:Label text="Label" class="label__item-name" style="-unity-text-align: middle-left; flex-direction: row; flex-grow: 0; font-size: 14px; flex-shrink: 1; -unity-font-style: bold;" />
+                <ui:VisualElement class="container__tags" style="flex-grow: 0; flex-direction: row; margin-top: 5px; margin-left: -3px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="spacer" style="min-height: 5px;" />
+            <ui:ScrollView style="flex-grow: 1;">
+                <ui:Label text="Description" class="label__item-description" style="flex-grow: 1; white-space: normal; -unity-text-align: middle-left; flex-shrink: 1;" />
+                <ui:VisualElement class="details-container">
+                    <ui:VisualElement name="spacer" style="min-height: 5px;" />
+                    <ui:VisualElement name="spacer" style="min-height: 5px;" />
+                    <ui:Label text="Details" class="label__integration-details-header" style="white-space: normal; -unity-text-align: middle-left; -unity-font-style: bold;" />
+                    <ui:VisualElement name="spacer" style="min-height: 5px;" />
+                    <ui:Label text="Details" class="label__integration-details" style="white-space: normal; -unity-text-align: middle-left;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: column; flex-shrink: 0;">
+            <ui:Button text="Import" class="button__import" />
+            <ui:Button text="Asset Store" class="button__show-asset" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

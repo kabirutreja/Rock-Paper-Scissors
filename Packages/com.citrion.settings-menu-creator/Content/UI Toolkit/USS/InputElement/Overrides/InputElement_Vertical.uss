@@ -1,0 +1,3 @@
+.input-element__content {
+    flex-direction: column;
+}

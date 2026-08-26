@@ -1,0 +1,9 @@
+.unity-toggle {
+}
+
+.unity-toggle__input {
+}
+
+.unity-toggle__checkmark {
+    background-color: rgba(0, 0, 0, 0);
+}

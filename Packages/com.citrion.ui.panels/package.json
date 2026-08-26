@@ -1,0 +1,16 @@
+{
+  "name": "com.citrion.ui.panels",
+  "version": "1.0.7",
+  "displayName": "CitrioN - UI Panels",
+  "unity": "2021.3",
+  "keywords": [
+    "gui"
+  ],
+  "author": {
+    "name": "CitrioN"
+  },
+  "description": "A UI panels system that makes the handling of UI screens/panels/windows easy. There are various panel types that can be manipulated (opened, closed etc.) by a shared API.",
+  "dependencies": {
+    "com.citrion.common": "1.3.4"
+  }
+}

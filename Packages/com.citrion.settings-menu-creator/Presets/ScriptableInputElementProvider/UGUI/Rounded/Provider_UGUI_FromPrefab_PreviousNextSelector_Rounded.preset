@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Provider_UGUI_FromPrefab_PreviousNextSelector_Rounded
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 58a96f2a7438d7c4199010f36ac92de8, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: prefabs.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: prefabs.Array.data[0]
+    value: 
+    objectReference: {fileID: 7911310908418520276, guid: 9377710a2786f484f88978c747baf459, type: 3}
+  - target: {fileID: 0}
+    propertyPath: prefabs.Array.data[1]
+    value: 
+    objectReference: {fileID: 398189383327255861, guid: ece20192211f7e54081d5f716b93bddf, type: 3}
+  - target: {fileID: 0}
+    propertyPath: temp
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: allowCycle
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: representNoCycleOnButtons
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

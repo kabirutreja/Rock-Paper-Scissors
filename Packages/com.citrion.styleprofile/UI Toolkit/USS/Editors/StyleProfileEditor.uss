@@ -1,0 +1,3 @@
+.unity-property-field > .unity-foldout > .unity-toggle {
+    display: none;
+}

@@ -1,0 +1,3 @@
+.tab-menu__tabs-container {
+    margin-bottom: 50px;
+}

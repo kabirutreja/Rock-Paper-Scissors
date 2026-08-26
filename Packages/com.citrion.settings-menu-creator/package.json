@@ -1,0 +1,32 @@
+{
+  "name": "com.citrion.settings-menu-creator",
+  "version": "1.6.7",
+  "displayName": "CitrioN - Settings Menu Creator",
+  "unity": "2021.3",
+  "keywords": [
+    "settings",
+    "options",
+    "ui",
+    "gui",
+    "ugui",
+    "uielements",
+    "uitoolkit",
+    "menu",
+    "interface",
+    "automatic",
+    "generate"
+  ],
+  "author": {
+    "name": "CitrioN"
+  },
+  "description": "The Settings Menu Creator is a tool that makes the creation of settings/options menus quick and easy.",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.citrion.common": "1.3.6",
+    "com.citrion.ui": "1.0.6",
+    "com.citrion.ui.panels": "1.0.7",
+    "com.citrion.ui.images": "1.0.1",
+    "com.citrion.ui.components": "1.2.2",
+    "com.citrion.styleprofile": "1.1.4"
+  }
+}

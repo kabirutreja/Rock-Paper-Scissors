@@ -1,0 +1,97 @@
+.input-element__root {
+    flex-grow: 1;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.input-element__backgrounds {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-element__content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.input-element__label-container {
+    flex-grow: 1;
+}
+
+.input-element__label-container__backgrounds {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-element__label-container__content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-element__label {
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}
+
+.input-element__label-container__overlays {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input_element__element-container {
+    flex-grow: 1;
+}
+
+.input-element__element-container__backgrounds {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-element__element-container__content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-element__element-container__overlays {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-element__overlays {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}

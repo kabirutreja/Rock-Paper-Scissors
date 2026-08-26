@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Label text="Uninstall Packages" display-tooltip-when-elided="true" class="manager__tab__title" style="white-space: normal; -unity-text-align: upper-center; -unity-font-style: bold;" />
+    <ui:Label text="The asset uses packages so removing it from the project can normally only be done from the &apos;Package Manager&apos; window. To remove multiple packages at once you can use the package selection below." display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; margin-bottom: 10px;" />
+    <ui:Label text="After clicking &apos;Remove selected&apos; a confirmation window will open listing exactly which packages will be removed upon confirmation." display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; margin-bottom: 10px;" />
+    <ui:Label text="Dependencies" display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; -unity-font-style: bold; display: none;" />
+    <ui:Label text="Including dependencies will in many cases remove multiple packages. If multiple assets in the project depend on the same packages the dependencies will not automatically be included for removal. Removing an asset may lead to errors in your console such as when other assets depended on the removed asset (ie: Addons).&#10;" display-tooltip-when-elided="true" style="white-space: normal; display: none;" />
+    <ui:Label text="If you remove the &apos;Settings Menu Creator&apos; package this window/tab will no longer be accessible and you will have to remove any remaining packages manually from the &apos;Package Manager&apos;." display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; margin-bottom: 10px; display: none;" />
+    <ui:Label text="You also need to remove the Assets &gt; CitrioN &gt; SMC folder if you want to remove all files of the asset from your project." display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center;" />
+    <ui:VisualElement style="flex-grow: 1; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
+        <ui:ListView focusable="true" />
+        <ui:VisualElement name="spacer" style="min-height: 10px;" />
+        <ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; margin-top: 0; margin-bottom: 3px;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="button__refresh-list" style="width: 50%; flex-shrink: 1; white-space: normal;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="button__select-all" style="white-space: normal; width: 50%; flex-shrink: 1;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="button__deselect-all" style="white-space: normal; width: 50%; flex-shrink: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="button_remove-assets" style="white-space: normal; width: 50%; flex-shrink: 1;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="button__remove-selection" style="white-space: normal; width: 50%; flex-shrink: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

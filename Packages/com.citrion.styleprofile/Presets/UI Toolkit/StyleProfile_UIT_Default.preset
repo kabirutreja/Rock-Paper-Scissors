@@ -1,0 +1,604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StyleProfile_UIT_Default
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 11fee2b443c436d428b68419eee8ed65, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: identifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lastIdentifier
+    value: Default
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[0].key
+    value: Background Image 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[0].value
+    value: 1568872811870289920
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[1].key
+    value: Background Image 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[1].value
+    value: 1568872811870289921
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[2].key
+    value: Primary Image
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[2].value
+    value: 1568872811870289922
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[3].key
+    value: Primary Image Border
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[3].value
+    value: 7116012210771198024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[4].key
+    value: Primary Image Inverted
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[4].value
+    value: 1568872811870289926
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[5].key
+    value: Primary Image Inverted Border
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[5].value
+    value: 7116012210771198025
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[6].key
+    value: Primary Text
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[6].value
+    value: 1568872811870289929
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[7].key
+    value: Primary Text Inverted
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[7].value
+    value: 1568872811870289933
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[8].key
+    value: Default Font
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[8].value
+    value: 7116012159902679040
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[9].key
+    value: Default Font Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[9].value
+    value: 7116012159902679042
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[10].key
+    value: Headline Font Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[10].value
+    value: 7116012159902679043
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[11].key
+    value: Headline Font Style
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[11].value
+    value: 7116012163079864687
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[12].key
+    value: Headline Align Self
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[12].value
+    value: 7116012163079864686
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[13].key
+    value: Title Font Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[13].value
+    value: 7116012159902679044
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[14].key
+    value: Title Align Self
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[14].value
+    value: 7116012163079864683
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[15].key
+    value: Title Font Style
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[15].value
+    value: 7116012163079864685
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[16].key
+    value: Slider Text Field Min Width
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[16].value
+    value: 7116012163079864689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[17].key
+    value: Primary Border Radius
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[17].value
+    value: 7116012159902679050
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[18].key
+    value: Primary Border Width
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[18].value
+    value: 7116012210771197988
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[19].key
+    value: Input Element Height
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[19].value
+    value: 7116012159902679053
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[20].key
+    value: Menu Center Left Width
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[20].value
+    value: 7116012163079864680
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[21].key
+    value: Menu Center Right Width
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[21].value
+    value: 7116012163079864682
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[22].key
+    value: Toggle Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[22].value
+    value: 7116012159902679052
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[23].key
+    value: Spacer Height
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.Array.data[23].value
+    value: 7116012166197542912
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289920]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289920].value.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289920].value.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289920].value.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289920].value.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289921]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289921].value.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289921].value.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289921].value.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289921].value.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289922]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289922].value.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289922].value.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289922].value.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289922].value.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289926]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289926].value.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289926].value.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289926].value.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289926].value.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289929]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289929].value.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289929].value.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289929].value.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289929].value.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289933]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289933].value.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289933].value.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289933].value.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[1568872811870289933].value.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679040]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Font
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679040].value
+    value: 
+    objectReference: {fileID: 12800000, guid: b4a3cf88010baaa4b9c8c3f1be2ccfa1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679042]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Text_Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679042].value
+    value: 35
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679042].lengthUnit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679042].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679043]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Text_Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679043].value
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679043].lengthUnit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679043].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679044]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Text_Size
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679044].value
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679044].lengthUnit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679044].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679050]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Border_Radius_All
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679050].value
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679050].lengthUnit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679050].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679052]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Size_MinHeight
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679052].value
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679052].lengthUnit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679052].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679053]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Size_MinHeight
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679053].value
+    value: 70
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679053].lengthUnit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012159902679053].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864680]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Size_MinWidth
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864680].value
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864680].lengthUnit
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864680].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864682]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Size_MinWidth
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864682].value
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864682].lengthUnit
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864682].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864683]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Align_Self
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864683].value
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864685]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Font_Style
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864685].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864686]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Align_Self
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864686].value
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864687]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Font_Style
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864687].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864689]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Size_MinWidth
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864689].value
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864689].lengthUnit
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012163079864689].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012166197542912]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Size_MinHeight
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012166197542912].value
+    value: 35
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012166197542912].lengthUnit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012166197542912].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771197988]
+    value: CitrioN.StyleProfileSystem.UIToolkit CitrioN.StyleProfileSystem.UIToolkit.StyleProfileData_UIT_Border_Width_All
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771197988].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771197988].keyword
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198024]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198024].value.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198024].value.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198024].value.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198024].value.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198025]
+    value: CitrioN.StyleProfileSystem CitrioN.StyleProfileSystem.StyleProfileData_Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198025].value.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198025].value.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198025].value.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: managedReferences[7116012210771198025].value.a
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties:
+  - identifier

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="padding-left: 4px; padding-bottom: 4px;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between;">
+            <ui:Label text="Label" class="label__item-name" style="-unity-text-align: middle-center; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="spacer" style="min-height: 5px;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label text="Description" class="label__item-description" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

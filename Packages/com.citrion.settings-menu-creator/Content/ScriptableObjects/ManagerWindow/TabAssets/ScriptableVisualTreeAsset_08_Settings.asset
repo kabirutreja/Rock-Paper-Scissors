@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc9670c7d6a6f64997d7470907c90f4, type: 3}
+  m_Name: ScriptableVisualTreeAsset_08_Settings
+  m_EditorClassIdentifier: 
+  displayName: Settings Collection
+  uxml: {fileID: 9197481963319205126, guid: 417fe5b201a566940a04ab4b89add303, type: 3}
+  styleSheet: {fileID: 0}
+  styleSheets:
+  - {fileID: 7433441132597879392, guid: d0bb789a2ff328346884f5fe6d24bd6d, type: 3}
+  controller: {fileID: 11400000, guid: a8ddc096393fd084fadee2b5dddf2a71, type: 2}

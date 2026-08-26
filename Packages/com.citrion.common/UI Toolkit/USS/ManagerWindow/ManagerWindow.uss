@@ -1,0 +1,63 @@
+.manager__tab-menu {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.manager__tab-menu > .tab-menu__tabs-container {
+    flex-direction: column;
+    min-width: 20%;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 25px;
+    background-color: var(--unity-colors-box-background);
+}
+
+.manager__tab-menu > .tab-menu__tabs-container .tab-menu__tab {
+    -unity-text-align: upper-center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.manager__tab-menu > .tab-menu__tabs-container .tab-menu__tab__selected {
+    background-color: var(--unity-colors-input_field-border-focus);
+}
+
+.manager__tab-menu > .tab-menu__tabs-container .tab-menu__tab__label {
+    -unity-text-align: upper-right;
+    font-size: 14px;
+}
+
+.manager__tab-menu > .tab-menu__tabs-content-container {
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.tab-menu__tab:focus {
+}
+
+.manager__tab__title {
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,35 @@
+.container__settings > .unity-foldout__content {
+    flex-direction: row;
+}
+
+.container__settings-list {
+    width: 50%;
+}
+
+.container__setting-details {
+    width: 50%;
+}
+
+.inspector_toolbar {
+    display: none;
+}
+
+.settings {
+}
+
+.unity-property-field .unity-property-field__input {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+.unity-property-field .unity-property-field__label {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 50%;
+    text-overflow: ellipsis;
+}
+
+.button__open-in-editor {
+    display: none;
+}

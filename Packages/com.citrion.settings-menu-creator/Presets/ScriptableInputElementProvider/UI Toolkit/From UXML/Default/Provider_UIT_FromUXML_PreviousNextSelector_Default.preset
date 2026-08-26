@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Provider_UIT_FromUXML_PreviousNextSelector_Default
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 65f6065970310244c8663b7cdeda26c9, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.data[0]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 59f26bf2e1587cf458aaaab9eefc7025, type: 3}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.data[1]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: a1c746791d6a8d24c901d7d2ffa60247, type: 3}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.data[2]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: d40074ebf09827a498e29cc244c975b9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.data[3]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 224586d99807acd42953bf7863568fd8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.data[4]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: d30f025504263164c9879f4e42c05df6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: styleSheets.Array.data[5]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: b8a6dc668efa087438accdbc0c0fd6eb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: classNames.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: templates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: templates.Array.data[0]
+    value: 
+    objectReference: {fileID: 9197481963319205126, guid: 104a15cf7aaa0df44810eae44e6b6d25, type: 3}
+  - target: {fileID: 0}
+    propertyPath: allowCycle
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: representNoCycleOnButtons
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

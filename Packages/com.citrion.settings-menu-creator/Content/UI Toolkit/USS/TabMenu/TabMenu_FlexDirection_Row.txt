@@ -1,0 +1,7 @@
+This text file serves as the explanation for the USS file with the same name as this text file. 
+Due to comments in USS files being removed when saved in a UI Document 
+this is a way to allow comments and explanations to be added for the corresponding file.
+
+TabMenu_FlexDirection_Row aligns the tab container and content container horizontally.
+This makes it possible to have the tabs on the left or right.
+Should be combined with column based tab alignment.

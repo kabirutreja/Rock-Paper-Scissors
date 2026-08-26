@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc9670c7d6a6f64997d7470907c90f4, type: 3}
+  m_Name: ScriptableVisualTreeAsset_07_Integrations
+  m_EditorClassIdentifier: 
+  displayName: Integrations
+  uxml: {fileID: 9197481963319205126, guid: d26cb9819a14c654e840b26886ea2a2a, type: 3}
+  styleSheet: {fileID: 0}
+  styleSheets:
+  - {fileID: 7433441132597879392, guid: ad987c6076b9be74aa7996d4bcd65af1, type: 3}
+  - {fileID: 7433441132597879392, guid: d92caa6ce0970cb45bd630528bb3354b, type: 3}
+  controller: {fileID: 11400000, guid: 33cd396264f656e44b65156df79d8da6, type: 2}

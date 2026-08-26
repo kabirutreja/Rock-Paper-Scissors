@@ -1,0 +1,19 @@
+{
+  "name": "com.citrion.ui.components",
+  "version": "1.2.2",
+  "displayName": "CitrioN - UI Components",
+  "unity": "2021.3",
+  "keywords": [
+    "gui"
+  ],
+  "author": {
+    "name": "CitrioN"
+  },
+  "description": "The UI Components package adds various additional components such as a tab menu, improved dropdown, previous next selector etc.",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.citrion.common": "1.3.4",
+    "com.citrion.ui": "1.0.6",
+    "com.citrion.ui.images": "1.0.1"
+  }
+}

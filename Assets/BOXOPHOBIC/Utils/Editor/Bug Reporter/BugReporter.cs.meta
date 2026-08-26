@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bf5c8a6dd10e675449e77ce82811b5ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159647
+  packageName: The Vegetation Engine
+  packageVersion: 10.2.1
+  assetPath: Assets/BOXOPHOBIC/The Vegetation Engine/Core/Editor/TVEAssetsManager.cs
+  uploadId: 594305

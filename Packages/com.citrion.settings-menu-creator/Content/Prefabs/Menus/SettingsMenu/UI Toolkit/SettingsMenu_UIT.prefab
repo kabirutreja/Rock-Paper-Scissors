@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3722510493374705563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5122881689187214373}
+  - component: {fileID: 5300965958078516999}
+  - component: {fileID: 143230727796404281}
+  - component: {fileID: 1933995353431231523}
+  - component: {fileID: 1464167593625627716}
+  m_Layer: 5
+  m_Name: SettingsMenu_UIT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5122881689187214373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722510493374705563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5300965958078516999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722510493374705563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: ccf553fdd193eeb4bbe3df1620ffc1db, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 138db42a83fe17a4d891623df5380976,
+    type: 3}
+  m_SortingOrder: 0
+--- !u!114 &143230727796404281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722510493374705563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb2cdb6c8c5fd74792f9a0b5ed73204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelName: SettingsMenu
+  openOnStart: 1
+  openOnEnable: 0
+  preventOpening: 0
+  keepOpen: 0
+  closeOtherPanelsOnOpen: 0
+  openPreviouslyClosedPanelsOnClose: 1
+  delayOnStart: 0
+  blockingPanels: []
+  OnInitialize:
+    m_PersistentCalls:
+      m_Calls: []
+  OnOpen:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1464167593625627716}
+        m_TargetAssemblyTypeName: CitrioN.StyleProfileSystem.AssignStyleProfileToListenersInHierarchy,
+          CitrioN.StyleProfileSystem
+        m_MethodName: ForceAssign
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnClose:
+    m_PersistentCalls:
+      m_Calls: []
+  menuTemplates:
+  - {fileID: 9197481963319205126, guid: efc44865fe9d8df4c99d69e063fec72e, type: 3}
+  - {fileID: 9197481963319205126, guid: bfe51f7b4c6272e448c81972df6323ae, type: 3}
+  - {fileID: 9197481963319205126, guid: b92cd617d589af949953df5873272a4a, type: 3}
+  styleSheets:
+  - {fileID: 7433441132597879392, guid: 6b467a23d13d1ec4d919c48a73d35ba8, type: 3}
+  loadOnCreate: 1
+  applyAndSaveOnClose: 1
+  settingsCollection: {fileID: 0}
+--- !u!114 &1933995353431231523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722510493374705563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873dd3526d6b7094b94fe72611c54b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 0}
+--- !u!114 &1464167593625627716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722510493374705563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1650bce20dd9ce14e8541e2344f87f71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  styleProfile: {fileID: 0}
+  styleProfileIdentifier: 
+  overrideExisting: 0
+  assignOnEnable: 0

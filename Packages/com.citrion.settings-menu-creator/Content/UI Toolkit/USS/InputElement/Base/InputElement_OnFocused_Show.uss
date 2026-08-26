@@ -1,0 +1,13 @@
+.input-element__focused {
+}
+
+.input-element__unfocused {
+}
+
+.input-element__focused .on-focused {
+    visibility: visible;
+}
+
+.input-element__unfocused .on-focused {
+    visibility: hidden;
+}

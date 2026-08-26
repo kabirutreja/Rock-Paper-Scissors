@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509db613963be5d49981494f88ed5d43, type: 3}
+  m_Name: SettingsCollectionController
+  m_EditorClassIdentifier: 
+  settingsCollection: {fileID: 0}
+  settingsCollectionEditor: {fileID: 0}
+  selectedHolder:
+    applyImmediately: 1
+    identifier: a349e82f-a5d9-45dc-b54c-e8c653d8c597
+    expanded: 0
+    overrideIdentifierWhenCopied: 1
+    setting:
+      rid: 5988498473015312392
+    inputElementProviderSettings:
+      rid: 5988498473015312393
+  containerFoldoutValue_General: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 5988498473015312392
+      type: {class: Setting_AudioEnabled, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data:
+        options:
+        - key: True
+          value: True
+        - key: False
+          value: False
+        defaultValue: 1
+        assignUnityValueAsDefault: 0
+    - rid: 5988498473015312393
+      type: {class: InputElementProviderSettings, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data:
+        customLabel: Mix
+        parentIdentifier: settings-parent
+        addSpacer: 1
+        spacerElementClass: setting-spacer
+        inputElementProvider_UIToolkit:
+          rid: 5988498473015312394
+        inputElementProvider_UGUI:
+          rid: 5988498473015312395
+    - rid: 5988498473015312394
+      type: {class: InputElementProvider_UIT_None, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data: 
+    - rid: 5988498473015312395
+      type: {class: InputElementProvider_UGUI_None, ns: CitrioN.SettingsMenuCreator, asm: CitrioN.SettingsMenuCreator}
+      data: 

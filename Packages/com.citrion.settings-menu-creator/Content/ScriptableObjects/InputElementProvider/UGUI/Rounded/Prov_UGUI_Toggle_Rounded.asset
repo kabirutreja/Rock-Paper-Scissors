@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 003ea495b91ccac4aaa5066cee61b9ea, type: 3}
+  m_Name: Prov_UGUI_Toggle_Rounded
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 7911310908418520276, guid: 9377710a2786f484f88978c747baf459, type: 3}
+  - {fileID: 2869082030693573074, guid: ba4177e21be02e5449f9fab42a17b333, type: 3}
+  transition: 0

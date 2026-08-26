@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="container" style="flex-direction: column; justify-content: space-between; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px;">
+        <uie:PropertyField name="property-field" class="property-field__input-element-provider-label" />
+        <ui:VisualElement style="flex-direction: row;">
+            <uie:PropertyField name="property-field" class="property-field__input-element-provider-parent" />
+            <ui:Button text="Sync Selected" class="sync-selected__button button__sync__input-element-parent" style="display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="spacer" class="spacer" />
+        <ui:VisualElement name="UIToolkit" class="box-border">
+            <ui:Label text="UI Toolkit" class="provider-header-label" />
+            <uie:PropertyField name="property-field" class="property-field__add-spacer-element property-field__add-spacer" />
+            <uie:PropertyField name="property-field" class="property-field__spacer-element" />
+            <ui:VisualElement name="spacer" class="spacer" />
+            <ui:Label text="Provider" name="Provider" style="margin-left: 3px;" />
+            <ui:VisualElement name="header" style="justify-content: space-between; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 3px; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                <ui:Label name="type-label" text="Label" class="type-label type-label_uit" />
+                <ui:Button name="property-change-button" text="Change button" class="property-change-button" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <uie:PropertyField name="property-field" class="property-field" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="spacer" class="spacer" />
+        <ui:VisualElement name="UGUI" class="box-border">
+            <ui:Label text="uGUI" class="provider-header-label" />
+            <ui:Label text="Provider" name="Provider" style="margin-left: 3px;" />
+            <ui:VisualElement name="header" style="justify-content: space-between; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 3px; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                <ui:Label name="type-label" text="Label" class="type-label type-label-ugui" />
+                <ui:Button name="property-change-button" text="Change button" class="property-change-button__ugui" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <uie:PropertyField name="property-field" class="property-field__input-element-provider-ugui" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

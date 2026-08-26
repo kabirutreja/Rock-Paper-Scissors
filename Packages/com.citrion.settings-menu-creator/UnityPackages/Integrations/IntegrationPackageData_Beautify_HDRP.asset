@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957a6721f6c22354c94b1814210449b5, type: 3}
+  m_Name: IntegrationPackageData_Beautify_HDRP
+  m_EditorClassIdentifier: 
+  displayName: Beautify HDRP
+  group: 'SMC: Integrations'
+  description: Beautify HDRP is a post processing effect created for High Definition
+    Rendering Pipeline that improves the image quality in real time producing incredibly
+    crisp and vivid scenes.
+  priority: 1
+  publisherName: Kronnect
+  assetUrl: https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/beautify-hdrp-165411
+  integrationDetails: Adds 12 settings to manipulate Beautify at runtime in HDRP.
+  packageAsset: {fileID: 102900000, guid: 283a411c46b428e4191295b4de6210e7, type: 3}
+  assetReferenceAsset: {fileID: 11500000, guid: ef9822fb62dea4645881af069b30bdf2, type: 3}
+  integrationReferenceAsset: {fileID: 102900000, guid: 82f8edf890d69eb4ca1d3df9a652a453, type: 3}

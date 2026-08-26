@@ -1,0 +1,11 @@
+.toolbar__toggle {
+    flex-grow: 0;
+    flex-direction: row-reverse;
+}
+
+.toolbar__toggle .unity-toggle__label {
+    flex-grow: 0;
+    flex-shrink: 1;
+    min-width: 0;
+    margin-left: 3px;
+}

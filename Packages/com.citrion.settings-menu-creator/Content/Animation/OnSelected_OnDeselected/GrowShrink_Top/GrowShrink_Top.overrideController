@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GrowShrink_Top
+  m_Controller: {fileID: 9100000, guid: 4378576a1a4d0c846ae549fb6a838e07, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4037976af66d5ac46b8fd25a3fb7b3b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: df7ccb21e2216c54bb1419779dbc9169, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4be92865bdde9d045b6730052f17f659, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a042e1cb17d9815448b63f14dd233fa6, type: 2}

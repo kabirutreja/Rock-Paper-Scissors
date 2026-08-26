@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:VisualElement style="padding-left: 4px; padding-bottom: 4px; flex-direction: row; padding-top: 0; padding-right: 0; flex-grow: 1;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; margin-top: 3px;">
+                <ui:Label text="Label" class="label__item-name" style="-unity-text-align: middle-left; -unity-font-style: bold; flex-grow: 1; width: 70%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Foldout text="Foldout" style="width: 90%; flex-grow: 1; display: none;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 30%;">
+            <ui:Toggle label="Include" class="toggle__add-to-selected" style="flex-shrink: 1; flex-grow: 1; margin-top: 3px; margin-right: 3px; margin-bottom: 0; margin-left: 3px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

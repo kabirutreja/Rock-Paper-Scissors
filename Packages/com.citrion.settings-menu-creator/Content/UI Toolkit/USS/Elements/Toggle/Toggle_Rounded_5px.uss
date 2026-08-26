@@ -1,0 +1,12 @@
+.unity-toggle {
+}
+
+.unity-toggle__input {
+}
+
+.unity-toggle__checkmark {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

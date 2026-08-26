@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd716f11a666dd4ebbe2cf8bd572d63, type: 3}
+  m_Name: StringToStringRelationProfile_WelcomeTab
+  m_EditorClassIdentifier: 
+  relations:
+  - key: intro
+    value: Thank you for using the Settings Menu Creator.\nYou can always open this
+      window by going to 'Tools > CitrioN > Settings Menu Creator > Manager'.
+  - key: customer-free
+    value: The free version comes with many features but only a select few settings
+      that you can add to your menus.\n\nIf you like the asset check out and consider
+      purchasing the <b>pro version</b>, the available <b>addons</b> or the <b>complete
+      bundle</b> to <b>add new settings and features</b> to the Settings Menu Creator.
+  - key: customer-paid
+    value: Your purchase supports the development greatly and allows me to work on
+      new updates to add more awesome features to the product.
+  - key: documentation
+    value: You can find offline and online documentation shortcuts in the 'Documentation'
+      tab.
+  - key: samples
+    value: There are demo/sample scenes you can import from the 'Samples' tab to
+      learn about the asset's features and check out example menus.
+  - key: get-started
+    value: Start creating a menu by generating all the menu resoures from the 'Resources
+      Generator' tab.
+  - key: support
+    value: Check out the 'Support' tab for discord, email and forum support.\n\nYou
+      can also leave feedback, feature requests etc. in all those places.\n\nA review
+      of the asset(s) is of course highly appreciated and helps other people to discover
+      the asset more easily.
+  - key: uninstall
+    value: The asset uses Unity packages which can only be removed via the 'Package
+      Manager' manually. To make this easier and faster you can use the 'Uninstall'
+      tab.
+  - key: thanks
+    value: Thank you very much for your support!

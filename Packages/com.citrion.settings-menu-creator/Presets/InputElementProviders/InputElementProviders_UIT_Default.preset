@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: InputElementProviders_UIT_Default
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: ffbf1c28b057fd44790cc0998d646f98, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.size
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[0].key
+    value: Void
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[0].value
+    value: 
+    objectReference: {fileID: 11400000, guid: 2cb18ed18e941d64592772d45f37d845, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[1].key
+    value: Boolean
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[1].value
+    value: 
+    objectReference: {fileID: 11400000, guid: fda874fd535de724882c46d68aaa6f6a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[2].key
+    value: Int32
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[2].value
+    value: 
+    objectReference: {fileID: 11400000, guid: fa700e08b3bbaab4785f05019011456a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[3].key
+    value: Single
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[3].value
+    value: 
+    objectReference: {fileID: 11400000, guid: 29b6337384c793342b89c90d21e799d1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[4].key
+    value: String
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[4].value
+    value: 
+    objectReference: {fileID: 11400000, guid: fa700e08b3bbaab4785f05019011456a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[5].key
+    value: Enum
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[5].value
+    value: 
+    objectReference: {fileID: 11400000, guid: 240dcb682fdb1884fbea1b06cdc1769b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[6].key
+    value: Button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[6].value
+    value: 
+    objectReference: {fileID: 11400000, guid: 2cb18ed18e941d64592772d45f37d845, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[7].key
+    value: Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[7].value
+    value: 
+    objectReference: {fileID: 11400000, guid: fda874fd535de724882c46d68aaa6f6a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[8].key
+    value: Slider Float
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[8].value
+    value: 
+    objectReference: {fileID: 11400000, guid: 29b6337384c793342b89c90d21e799d1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[9].key
+    value: Dropdown
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[9].value
+    value: 
+    objectReference: {fileID: 11400000, guid: 240dcb682fdb1884fbea1b06cdc1769b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[10].key
+    value: Previous Next Selector
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[10].value
+    value: 
+    objectReference: {fileID: 11400000, guid: fa700e08b3bbaab4785f05019011456a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[11].key
+    value: Title
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[11].value
+    value: 
+    objectReference: {fileID: 11400000, guid: cb42b56718162884e8cc6d2419ecd671, type: 2}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[12].key
+    value: Headline
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: relations.Array.data[12].value
+    value: 
+    objectReference: {fileID: 11400000, guid: f5ba366bcc595cd40a3e37f6f8bf044a, type: 2}
+  m_ExcludedProperties: []

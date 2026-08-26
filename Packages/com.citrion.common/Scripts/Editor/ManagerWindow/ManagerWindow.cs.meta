@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 23bba1ae7d8c8674d834790d86638367
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - windowUXML: {instanceID: 0}
+  - windowStyleSheet: {instanceID: 0}
+  - tabContents: {instanceID: 0}
+  - data: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

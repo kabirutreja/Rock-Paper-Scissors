@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RCP_UIT_MenuLayout_Columns_2
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 2b70695f6e1544c418f20f31004605fd, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createAllFolders
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: createDedicatedScene
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sourceCollection
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: additionalSettings.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settingsSaver
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settingsMenu_UGUI
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: menuLayoutTemplate
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: styleProfile
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputElementProviders_UGUI
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settingsMenu_UIT
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: menuDocuments.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: menuDocuments.Array.data[0]
+    value: 
+    objectReference: {fileID: 9197481963319205126, guid: efc44865fe9d8df4c99d69e063fec72e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuDocuments.Array.data[1]
+    value: 
+    objectReference: {fileID: 9197481963319205126, guid: b92cd617d589af949953df5873272a4a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuDocuments.Array.data[2]
+    value: 
+    objectReference: {fileID: 9197481963319205126, guid: 8aa2a02b5156d8a448bf778ee6d81532, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.data[0]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 17ce7b4c29c8a6c48bb2c8ff4cab3f6a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.data[1]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 522a00b09bcc70d4799c2b7952d45af3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.data[2]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 6b467a23d13d1ec4d919c48a73d35ba8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.data[3]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 748ab918de244454d8b401144991f729, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.data[4]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: d74ce4bc4d7ab4c43a3b601117a162d8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.data[5]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: 6225c28a81863ea4582dbf405c51838d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: menuStyleSheets.Array.data[6]
+    value: 
+    objectReference: {fileID: 7433441132597879392, guid: fa7288c1eb4bd664eb225da1e936f757, type: 3}
+  - target: {fileID: 0}
+    propertyPath: styleProfile_UIT
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputElementProviders_UIT
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties:
+  - additionalSettings
+  - sourceCollection
+  - settingsMenu_UGUI
+  - menuLayoutTemplate
+  - styleProfile
+  - inputElementProviders_UGUI
+  - styleProfile_UIT
+  - inputElementProviders_UIT
+  - createAllFolders
+  - settingsMenu_UIT
+  - createDedicatedScene
+  - settingsSaver

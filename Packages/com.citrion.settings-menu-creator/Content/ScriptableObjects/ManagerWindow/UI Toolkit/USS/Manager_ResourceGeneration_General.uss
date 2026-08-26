@@ -1,0 +1,98 @@
+.box {
+    border-top-color: var(--unity-colors-default-border);
+    border-right-color: var(--unity-colors-default-border);
+    border-bottom-color: var(--unity-colors-default-border);
+    border-left-color: var(--unity-colors-default-border);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: var(--unity-colors-box-background);
+}
+
+.headline {
+    -unity-font-style: bold;
+    font-size: 14px;
+    -unity-text-align: upper-center;
+}
+
+.unity-toggle__input {
+    justify-content: flex-end;
+}
+
+.container__general {
+}
+
+.container__info {
+}
+
+.container__settings {
+}
+
+.unity-foldout .unity-toggle__input {
+    justify-content: flex-start;
+}
+
+.unity-property-field {
+    flex-grow: 1;
+}
+
+.unity-object-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.preset-button {
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.box > .unity-toggle .unity-toggle__text {
+    -unity-font-style: bold;
+    font-size: 15px;
+}
+
+.unity-toggle__label {
+    flex-grow: 1;
+}
+
+.unity-toggle__input {
+    flex-grow: 0;
+}
+
+.box > .unity-foldout__content {
+    margin-top: 3px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.box > .unity-foldout__toggle .unity-foldout__text {
+    font-size: 15px;
+}
+
+.unity-property-field__label {
+    min-width: 35%;
+}
+
+
+/* This is needed to prevent the foldout arrow from overlapping the box in Unity 2021 */
+.box .unity-foldout__content {
+    padding-left: 15px;
+}
+
+/* This is needed to center the foldout arrow in Unity 2021 */
+.box .unity-foldout__toggle > .unity-toggle__input > .unity-toggle__checkmark {
+    align-self: center;
+}

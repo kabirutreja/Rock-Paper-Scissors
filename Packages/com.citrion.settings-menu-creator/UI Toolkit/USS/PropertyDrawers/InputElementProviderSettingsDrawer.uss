@@ -1,0 +1,46 @@
+.spacer {
+    height: 10px;
+}
+
+.type-label {
+    -unity-text-align: middle-left;
+}
+
+.type-label_uit {
+}
+
+.type-label-ugui {
+}
+
+.property-change-button {
+    margin-right: -1px;
+}
+
+.property-field {
+}
+
+.property-field__spacer-element {
+}
+
+.property-field__input-element-provider-parent {
+    flex-grow: 1;
+}
+
+.property-field__input-element-provider-label {
+}
+
+.property-field__input-element-provider-ugui {
+}
+
+.property-change-button__ugui {
+}
+
+.provider-header-label {
+    -unity-text-align: upper-center;
+}
+
+.button__sync__input-element-parent {
+}
+
+.property-field__add-spacer {
+}

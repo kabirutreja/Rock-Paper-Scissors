@@ -1,0 +1,11 @@
+.menu__center__left-container {
+    flex-grow: 1;
+    max-width: 5%;
+    min-width: 5%;
+}
+
+.menu__center__right-container {
+    flex-grow: 1;
+    max-width: 5%;
+    min-width: 5%;
+}

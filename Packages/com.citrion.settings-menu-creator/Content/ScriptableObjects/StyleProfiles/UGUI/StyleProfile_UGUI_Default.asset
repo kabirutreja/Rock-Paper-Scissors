@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fee2b443c436d428b68419eee8ed65, type: 3}
+  m_Name: StyleProfile_UGUI_Default
+  m_EditorClassIdentifier: 
+  identifier: Default
+  lastIdentifier: My custom identifier
+  data:
+  - key: Background Image
+    value:
+      rid: 1568872811870289920
+  - key: Background Image Overlay
+    value:
+      rid: 1568872811870289921
+  - key: Primary Image
+    value:
+      rid: 1568872811870289922
+  - key: Primary Image Hover
+    value:
+      rid: 1568872811870289923
+  - key: Primary Image Border
+    value:
+      rid: 1568872811870289925
+  - key: Primary Image Inverted
+    value:
+      rid: 1568872811870289926
+  - key: Primary Image Inverted Hover
+    value:
+      rid: 1568872811870289927
+  - key: Primary Image Inverted Border
+    value:
+      rid: 1568872811870289928
+  - key: Primary Text
+    value:
+      rid: 1568872811870289929
+  - key: Primary Text Hover
+    value:
+      rid: 1568872811870289930
+  - key: Primary Text_UnderlayColor
+    value:
+      rid: 1568872811870289931
+  - key: Primary Text_OutlineColor
+    value:
+      rid: 1568872811870289932
+  - key: Primary Text Inverted
+    value:
+      rid: 1568872811870289933
+  - key: Primary Text Inverted Hover
+    value:
+      rid: 1568872811870289934
+  - key: Primary Text Inverted_UnderlayColor
+    value:
+      rid: 1568872811870289935
+  - key: Primary Text Inverted_OutlineColor
+    value:
+      rid: 1568872811870289936
+  - key: Scrollbar Background Image
+    value:
+      rid: 1568872811870289937
+  - key: Scrollbar Handle Image
+    value:
+      rid: 1568872811870289938
+  - key: Highlight Image
+    value:
+      rid: 3030833666290352129
+  - key: Primary Font
+    value:
+      rid: 1568872811870289939
+  - key: Default Font Size
+    value:
+      rid: 1568872811870289940
+  - key: Headline Font Size
+    value:
+      rid: 1568872811870289941
+  - key: Title Font Size
+    value:
+      rid: 1568872811870289942
+  - key: Tab Font Size
+    value:
+      rid: 3030833682988400872
+  - key: Primary Text_UnderlayOffsetX
+    value:
+      rid: 1568872811870289943
+  - key: Primary Text_UnderlayOffsetY
+    value:
+      rid: 1568872811870289944
+  - key: Primary Text_UnderlayDilate
+    value:
+      rid: 1568872811870289945
+  - key: Primary Text_UnderlaySoftness
+    value:
+      rid: 1568872811870289946
+  - key: Primary Text_OutlineWidth
+    value:
+      rid: 1568872811870289947
+  - key: Primary Text Inverted_UnderlayOffsetX
+    value:
+      rid: 1568872811870289948
+  - key: Primary Text Inverted_UnderlayOffsetY
+    value:
+      rid: 1568872811870289949
+  - key: Primary Text Inverted_UnderlayDilate
+    value:
+      rid: 1568872811870289950
+  - key: Primary Text Inverted_UnderlaySoftness
+    value:
+      rid: 1568872811870289951
+  - key: Primary Text Inverted_OutlineWidth
+    value:
+      rid: 1568872811870289952
+  - key: Input Element Background Image
+    value:
+      rid: 3030833682988400669
+  references:
+    version: 2
+    RefIds:
+    - rid: 1568872811870289920
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 1}
+    - rid: 1568872811870289921
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 1568872811870289922
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 1568872811870289923
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - rid: 1568872811870289925
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
+    - rid: 1568872811870289926
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 1}
+    - rid: 1568872811870289927
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - rid: 1568872811870289928
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
+    - rid: 1568872811870289929
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 1568872811870289930
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - rid: 1568872811870289931
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 0}
+    - rid: 1568872811870289932
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 1568872811870289933
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 1}
+    - rid: 1568872811870289934
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - rid: 1568872811870289935
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 0}
+    - rid: 1568872811870289936
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 1568872811870289937
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 1568872811870289938
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 1568872811870289939
+      type: {class: StyleProfileData_FontAsset_TMP, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {fileID: 11400000, guid: 2fb71041a8ea31941b582111e767b56f, type: 2}
+    - rid: 1568872811870289940
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 35
+    - rid: 1568872811870289941
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 50
+    - rid: 1568872811870289942
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 100
+    - rid: 1568872811870289943
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0.8
+    - rid: 1568872811870289944
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: -0.8
+    - rid: 1568872811870289945
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0
+    - rid: 1568872811870289946
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0
+    - rid: 1568872811870289947
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0
+    - rid: 1568872811870289948
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0.8
+    - rid: 1568872811870289949
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: -0.8
+    - rid: 1568872811870289950
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0
+    - rid: 1568872811870289951
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0
+    - rid: 1568872811870289952
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 0
+    - rid: 3030833666290352129
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - rid: 3030833682988400669
+      type: {class: StyleProfileData_Color, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - rid: 3030833682988400872
+      type: {class: StyleProfileData_Float, ns: CitrioN.StyleProfileSystem, asm: CitrioN.StyleProfileSystem}
+      data:
+        value: 50

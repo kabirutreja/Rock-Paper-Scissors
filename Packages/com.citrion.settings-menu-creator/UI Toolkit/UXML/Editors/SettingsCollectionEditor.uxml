@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <uie:PropertyField name="property-field__identifier" class="property-field__identifier" />
+        <uie:PropertyField name="property-field__apply-immediately-mode" class="property-field__apply-immediately-mode" />
+        <uie:PropertyField name="property-field__settings-saver" class="property-field__settings-saver" />
+        <uie:PropertyField name="property-field__input-element-templates_ugui" class="property-field__input-element-templates_ugui" />
+        <uie:PropertyField name="property-field__input-element-templates_uitoolkit" class="property-field__input-element-templates_uitoolkit" />
+        <uie:PropertyField name="property-field__audio-mixer" class="property-field__audio-mixer" />
+        <uie:PropertyField name="property-field__post-process-profile" class="property-field__post-process-profile" />
+        <uie:PropertyField name="property-field__volume-profile" class="property-field__volume-profile" />
+        <ui:VisualElement name="drop-area" class="box-border drop-area">
+            <ui:Label text="Drop a collection here to add all its settings" name="drop-area__label" class="drop-area__label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="spacer" style="max-height: 10px; min-height: 10px;" />
+        <ui:Button text="Refresh List View" name="RefreshListView" class="button__utility button__rebuild-list-view" />
+        <ui:Foldout text="Foldout" name="foldout__advanced-settings" class="foldout__advanced-settings" style="display: none;" />
+        <ui:VisualElement name="spacer" style="max-height: 15px; min-height: 15px;" />
+        <ui:ListView name="settings-list" class="settings-list" style="max-height: 565px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,9 @@
+Once in Paris by Ivan Ohanezov from Pixabay.
+
+It was converted from the mp3 to the wav format to meet Unity's audio guidelines.
+
+Links
+License: https://pixabay.com/service/license-summary/
+Music: https://pixabay.com/music/beats-once-in-paris-168895/
+Creator: https://pixabay.com/users/pumpupthemind-19969411/
+Pixabay: https://pixabay.com/music/

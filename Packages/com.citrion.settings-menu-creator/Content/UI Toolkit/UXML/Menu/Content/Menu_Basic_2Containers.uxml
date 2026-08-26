@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="menu-content" class="menu__content">
+        <ui:VisualElement name="header" class="menu__header">
+            <ui:VisualElement name="header__left-container" class="menu__header__left-container" />
+            <ui:VisualElement name="header__center-container" class="menu__header__center-container menu-title" />
+            <ui:VisualElement name="header__right-container" class="menu__header__right-container" />
+        </ui:VisualElement>
+        <ui:VisualElement name="center" class="menu__center">
+            <ui:VisualElement name="center__left-container" class="menu__center__left-container" />
+            <ui:VisualElement name="center__center-container" class="menu__center__center-container">
+                <ui:ScrollView class="settings-parent" />
+                <ui:ScrollView class="settings-parent-2" />
+            </ui:VisualElement>
+            <ui:VisualElement name="center__right-container" class="menu__center__right-container" />
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" class="menu__footer">
+            <ui:VisualElement name="footer__left-container" class="menu__footer__left-container" />
+            <ui:VisualElement name="footer__center-container" class="menu__footer__center-container buttons-parent" />
+            <ui:VisualElement name="footer__right-container" class="menu__footer__right-container" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

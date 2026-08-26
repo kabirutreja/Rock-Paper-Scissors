@@ -1,0 +1,3 @@
+.tab-menu__tab__label {
+    white-space: normal;
+}

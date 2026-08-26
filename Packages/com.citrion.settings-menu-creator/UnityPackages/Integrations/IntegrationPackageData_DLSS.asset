@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957a6721f6c22354c94b1814210449b5, type: 3}
+  m_Name: IntegrationPackageData_DLSS
+  m_EditorClassIdentifier: 
+  displayName: DLSS - Upscaling for Unity (before v1.5)
+  group: 'SMC: Integrations'
+  description: 'This integration only supports versions of DLSS before v1.5!
+
+
+    Optimize
+    and increase your framerate with DLSS! This tool does its magic by upscaling
+    lower-resolution input to generate high-quality frames. This boosts performance
+    with close to no quality loss!'
+  priority: 1
+  publisherName: The Naked Dev
+  assetUrl: https://assetstore.unity.com/packages/tools/utilities/dlss-upscaling-for-unity-262761
+  integrationDetails: Adds 10 settings to customize the DLSS algorithm at runtime.
+  packageAsset: {fileID: 102900000, guid: 6b958b6a835280e439b77bc4fe1bdc8c, type: 3}
+  assetReferenceAsset: {fileID: 102900000, guid: 375656c80d354dd468dc5733b01aec62, type: 3}
+  packageId: 
+  integrationReferenceAsset: {fileID: 102900000, guid: 01a928682a9d72645a95ef442dce0a46, type: 3}

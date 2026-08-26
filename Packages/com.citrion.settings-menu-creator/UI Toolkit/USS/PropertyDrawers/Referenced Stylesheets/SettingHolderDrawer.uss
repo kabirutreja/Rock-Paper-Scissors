@@ -1,0 +1,149 @@
+.header {
+    -unity-font-style: bold;
+    margin-bottom: 3px;
+    margin-top: 0;
+    margin-left: 4px;
+    -unity-text-align: upper-center;
+}
+
+.override-identifier-when-copied__button {
+}
+
+.input-element-label__property-field {
+}
+
+.item-foldout {
+}
+
+.sync-selected__button {
+    margin-left: 5px;
+    margin-right: -3px;
+}
+
+.apply-immediately__button {
+}
+
+.type-label {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 4px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: bold;
+}
+
+#Setting > .unity-property-field > .unity-foldout > .unity-toggle > .unity-foldout__input {
+    /* max-height: 0; */
+    display: none;
+}
+
+.unity-property-field > .unity-base-field__aligned > .unity-property-field__label {
+    /*display: none;*/
+}
+
+.apply-immediately-toggle .unity-toggle__input {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.identifier-text-field {
+    justify-content: space-between;
+}
+
+.identifier-text-field .unity-text-field__input {
+    max-width: 425px;
+}
+
+.box-label {
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+__.box-border {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left-color: var(--unity-colors-button-border-pressed);
+    border-right-color: var(--unity-colors-button-border-pressed);
+    border-top-color: var(--unity-colors-button-border-pressed);
+    border-bottom-color: var(--unity-colors-button-border-pressed);
+    padding-right: 6px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: var(--unity-metrics-single_line_large-height);
+}
+
+.unity-property-field > .unity-foldout {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-color: var(--unity-colors-button-border-pressed);
+    border-right-color: var(--unity-colors-button-border-pressed);
+    border-top-color: var(--unity-colors-button-border-pressed);
+    border-bottom-color: var(--unity-colors-button-border-pressed);
+}
+
+.change-input-element-provider-button {
+    position: relative;
+    right: 0;
+}
+
+.property-change-button {
+}
+
+.setting-type-label {
+}
+
+.property-field {
+}
+
+.setting-tab {
+}
+
+.apply-immediately-toggle {
+}
+
+.override-identifier-when-copied-toggle {
+}
+
+.override-identifier-when-copied-toggle .unity-toggle__input {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.input-element-provider-settings__property-field {
+}
+
+.unity-foldout > .unity-foldout__toggle {
+    margin-left: 0px;
+}
+
+.unity-foldout > .unity-foldout__toggle:hover {
+    background-color: rgba(255, 0, 0, 0);
+}

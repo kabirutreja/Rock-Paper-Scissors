@@ -1,0 +1,21 @@
+.property-container {
+    flex-direction: row;
+}
+
+.property-field__key {
+    min-width: 40%;
+    max-width: 40%;
+    padding-right: 10px;
+}
+
+.property-field__key .unity-base-field__label {
+    display: none;
+}
+
+.property-field__value {
+    flex-grow: 1;
+}
+
+.property-field__value .unity-base-field__label {
+    display: none;
+}

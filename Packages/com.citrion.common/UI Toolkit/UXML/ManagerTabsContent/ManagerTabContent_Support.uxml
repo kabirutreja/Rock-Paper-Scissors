@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Items">
+        <ui:Label text="Support" display-tooltip-when-elided="true" class="manager__tab__title" />
+        <ui:Label text="If you have any issues, questions, feedback etc. I would love to hear it. You can contact me on Discord, the Unity forum thread or via email and I will always get back to you as soon as possible." display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; margin-bottom: 25px;" />
+        <ui:VisualElement name="Discord" style="flex-grow: 1; flex-direction: column; margin-top: 10px; margin-right: 5px; margin-bottom: 25px; margin-left: 5px; flex-shrink: 0;">
+            <ui:Label display-tooltip-when-elided="true" name="Name" text="Discord" style="white-space: normal; -unity-font-style: bold; -unity-text-align: upper-center; margin-bottom: 5px; font-size: 14px;" />
+            <ui:Label display-tooltip-when-elided="true" name="Description" text="Join the discord server for easy support, leave feedback/feature requests, vote on features and more." style="white-space: normal; -unity-text-align: upper-center; margin-left: 5px; margin-bottom: 10px;" />
+            <ui:Button text="Join Discord Server" display-tooltip-when-elided="true" class="button__join-discord" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Forum" style="flex-grow: 1; flex-direction: column; margin-top: 10px; margin-right: 5px; margin-bottom: 25px; margin-left: 5px; flex-shrink: 0;">
+            <ui:Label display-tooltip-when-elided="true" name="Name" text="Unity Forum" style="white-space: normal; -unity-text-align: upper-center; -unity-font-style: bold; margin-bottom: 5px; font-size: 14px;" />
+            <ui:Label display-tooltip-when-elided="true" name="Description" text="Use the official forum thread for the asset to get support, leave feedback and more." style="white-space: normal; -unity-text-align: upper-center; margin-left: 5px; margin-bottom: 10px;" />
+            <ui:Button text="Open Forum Thread" display-tooltip-when-elided="true" class="button__open-support-forum" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Email" style="flex-grow: 1; flex-direction: column; margin-top: 10px; margin-right: 5px; margin-bottom: 25px; margin-left: 5px; flex-shrink: 0;">
+            <ui:Label display-tooltip-when-elided="true" name="Name" text="Email Address" style="white-space: normal; -unity-text-align: upper-center; -unity-font-style: bold; margin-bottom: 5px; font-size: 14px;" />
+            <ui:Label display-tooltip-when-elided="true" name="Description" text="Send me an email if you need support, have questions or feedback." style="white-space: normal; -unity-text-align: upper-center; margin-left: 5px; margin-bottom: 10px;" />
+            <ui:Button text="Copy Email Address To Clipboard" display-tooltip-when-elided="true" class="button__copy-email-address" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Review" style="flex-grow: 1; flex-direction: column; margin-top: 10px; margin-right: 5px; margin-bottom: 25px; margin-left: 5px; flex-shrink: 0;">
+            <ui:Label display-tooltip-when-elided="true" name="Name" text="Write A Review" style="white-space: normal; -unity-text-align: upper-center; -unity-font-style: bold; margin-bottom: 5px; font-size: 14px;" />
+            <ui:Label display-tooltip-when-elided="true" name="Description" text="Writing a review helps other people to find my assets more easily and let&apos;s others know what you think of my assets. Thank you for taking the time to write a review." style="white-space: normal; -unity-text-align: upper-center; margin-left: 5px; margin-bottom: 10px;" />
+            <ui:Button text="Show Assets On Asset Store" display-tooltip-when-elided="true" class="button__write-review" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

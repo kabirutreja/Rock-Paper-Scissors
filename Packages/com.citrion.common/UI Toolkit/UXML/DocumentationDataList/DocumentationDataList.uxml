@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="align-items: stretch; width: 100%; height: 100%; flex-grow: 1;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" class="manager__tab__title" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" class="label__description" style="white-space: normal; -unity-text-align: upper-center;" />
+        <ui:VisualElement style="flex-grow: 0; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
+            <ui:ListView focusable="true" />
+            <ui:VisualElement name="spacer" style="min-height: 10px;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" class="button__refresh-list" />
+        </ui:VisualElement>
+        <ui:Label text="Inspector Documentation" display-tooltip-when-elided="true" style="white-space: normal; -unity-text-align: upper-center; -unity-font-style: bold; margin-top: 10px; font-size: 14px; margin-bottom: 5px;" />
+        <ui:Label text="Most scripts have a &apos;?&apos; button in the inspector window. You can use it to toggle descriptions for the script and its fields to learn more about it without having to open any documentation." display-tooltip-when-elided="true" class="label__class-descriptions" style="white-space: normal; -unity-text-align: upper-center;" />
+        <ui:VisualElement style="flex-grow: 1; margin-top: 10px;">
+            <ui:VisualElement class="image__class-descriptions" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
